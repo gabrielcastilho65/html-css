@@ -4,19 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Fundo fix de tela</title>
   <style>
     body{
       height: 100vh;
-      background-color: black;
+      /*background-color: black;
       background-image: url('imagens/wallpaper002.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
+      background-attachment: fixed;*/
+
+      /*Shorthand - background
+        color > image > position > repeat > 'usar / antes'[size] > attachment
+      */
+
+      background: black url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
     }
     main{
       background-color: white;
-      width: 400px;
+      max-width: 400px;
       padding: 10px;
       margin: auto;
       border: 1px solid darkblue;
@@ -27,6 +34,10 @@
 <body>
   <main>
     <h1>teste de imagem de fundo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro excepturi unde quos aperiam nisi provident iusto veniam omnis laboriosam maxime cumque pariatur quis quisquam asperiores, dolor soluta modi similique nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat optio impedit ex at aliquam rem est, hic blanditiis exercitationem sit nesciunt deserunt fuga quos minus aliquid nam. At, corrupti doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore asperiores ratione, dolores odio cupiditate inventore! Dolorum illum voluptatem assumenda rerum, quaerat, beatae ipsum dolore aliquam esse voluptatum, reprehenderit adipisci nobis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro excepturi unde quos aperiam nisi provident iusto veniam omnis laboriosam maxime cumque pariatur quis quisquam asperiores, dolor soluta modi similique nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat optio impedit ex at aliquam rem est, hic blanditiis exercitationem sit nesciunt deserunt fuga quos minus aliquid nam. At, corrupti doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore asperiores ratione, dolores odio cupiditate inventore! Dolorum illum voluptatem assumenda rerum, quaerat, beatae ipsum dolore aliquam esse voluptatum, reprehenderit adipisci nobis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro excepturi unde quos aperiam nisi provident iusto veniam omnis laboriosam maxime cumque pariatur quis quisquam asperiores, dolor soluta modi similique nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat optio impedit ex at aliquam rem est, hic blanditiis exercitationem sit nesciunt deserunt fuga quos minus aliquid nam. At, corrupti doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore asperiores ratione, dolores odio cupiditate inventore! Dolorum illum voluptatem assumenda rerum, quaerat, beatae ipsum dolore aliquam esse voluptatum, reprehenderit adipisci nobis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro excepturi unde quos aperiam nisi provident iusto veniam omnis laboriosam maxime cumque pariatur quis quisquam asperiores, dolor soluta modi similique nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat optio impedit ex at aliquam rem est, hic blanditiis exercitationem sit nesciunt deserunt fuga quos minus aliquid nam. At, corrupti doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore asperiores ratione, dolores odio cupiditate inventore! Dolorum illum voluptatem assumenda rerum, quaerat, beatae ipsum dolore aliquam esse voluptatum, reprehenderit adipisci nobis!</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro excepturi unde quos aperiam nisi provident iusto veniam omnis laboriosam maxime cumque pariatur quis quisquam asperiores, dolor soluta modi similique nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat optio impedit ex at aliquam rem est, hic blanditiis exercitationem sit nesciunt deserunt fuga quos minus aliquid nam. At, corrupti doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore asperiores ratione, dolores odio cupiditate inventore! Dolorum illum voluptatem assumenda rerum, quaerat, beatae ipsum dolore aliquam esse voluptatum, reprehenderit adipisci nobis!</p>
   </main>
 </body>
