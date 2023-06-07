@@ -1,4 +1,4 @@
-Curso de HTML5 e CSS3 do CursoEmVideo
+Curso de HTML5 e CSS3 do CursoEmVideo <br>
  -- Exercícios --
 
   <a href="https://orlugro.github.io/html-css/exercicios/ex001/index.html">ex001</a>
