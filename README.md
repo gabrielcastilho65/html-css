@@ -5,7 +5,7 @@ Curso de HTML5 e CSS3 do CursoEmVideo <br>
   <a href="https://orlugro.github.io/html-css/exercicios/ex002/index.html"  target="_blank">ex002</a>
   <a href="https://orlugro.github.io/html-css/exercicios/ex003/index.html"  target="_blank">ex003</a>
   <a href="https://orlugro.github.io/html-css/exercicios/ex004/index.html"  target="_blank">ex004</a>
-  <a href="https://orlugro.github.io/html-css/exercicios/ex005/desafio005/index.html"  target="_blank">ex005</a>
+  <a href="https://orlugro.github.io/html-css/exercicios/ex005/index.html"  target="_blank">ex005</a>
   <a href="https://orlugro.github.io/html-css/exercicios/ex006/index.html"  target="_blank">ex006</a>
   <a href="https://orlugro.github.io/html-css/exercicios/ex008/index.html"  target="_blank">ex008</a>
   <a href="https://orlugro.github.io/html-css/exercicios/ex009/index.html"  target="_blank">ex009</a>
